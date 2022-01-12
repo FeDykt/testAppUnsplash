@@ -1,16 +1,20 @@
 PODS:
+  - Alamofire (5.5.0)
   - UnsplashPhotoPicker (1.2.0)
 
 DEPENDENCIES:
+  - Alamofire
   - UnsplashPhotoPicker
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - UnsplashPhotoPicker
 
 SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
   UnsplashPhotoPicker: 09400fc1e84dfd04144fa8b204135e6bd2bc5bb2
 
-PODFILE CHECKSUM: 8a125565f9c6b4990d2887deba298cdcea0e0730
+PODFILE CHECKSUM: 5ab486648ae0087c716816775a298a32c41d9e1b
 
 COCOAPODS: 1.11.2

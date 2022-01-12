@@ -7,6 +7,8 @@ target 'testAppUnsplash' do
   use_frameworks!
 
   pod 'UnsplashPhotoPicker'
+  pod 'Alamofire'
+
   # Pods for testAppUnsplash
 
 end
