@@ -15,6 +15,8 @@
 		BF2B940A278F49A600DDC6D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2B9409278F49A600DDC6D1 /* Assets.xcassets */; };
 		BF2B940D278F49A600DDC6D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2B940B278F49A600DDC6D1 /* LaunchScreen.storyboard */; };
 		BF2B9415278F4C8600DDC6D1 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B9414278F4C8600DDC6D1 /* CollectionViewCell.swift */; };
+		BF2B9418278F4F8400DDC6D1 /* DecodeToModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B9417278F4F8400DDC6D1 /* DecodeToModel.swift */; };
+		BF2B941A278F4F9400DDC6D1 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B9419278F4F9400DDC6D1 /* Request.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		BF2B940C278F49A600DDC6D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF2B940E278F49A600DDC6D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF2B9414278F4C8600DDC6D1 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BF2B9417278F4F8400DDC6D1 /* DecodeToModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeToModel.swift; sourceTree = "<group>"; };
+		BF2B9419278F4F9400DDC6D1 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		EC4A0550448A45651FC27FB8 /* Pods_testAppUnsplash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testAppUnsplash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +88,7 @@
 			children = (
 				BF2B93FD278F49A400DDC6D1 /* AppDelegate.swift */,
 				BF2B93FF278F49A400DDC6D1 /* SceneDelegate.swift */,
+				BF2B9416278F4F6400DDC6D1 /* Network */,
 				BF2B9401278F49A400DDC6D1 /* ViewController.swift */,
 				BF2B9414278F4C8600DDC6D1 /* CollectionViewCell.swift */,
 				BF2B9409278F49A600DDC6D1 /* Assets.xcassets */,
@@ -92,6 +97,15 @@
 				BF2B9406278F49A400DDC6D1 /* testAppUnsplash.xcdatamodeld */,
 			);
 			path = testAppUnsplash;
+			sourceTree = "<group>";
+		};
+		BF2B9416278F4F6400DDC6D1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BF2B9419278F4F9400DDC6D1 /* Request.swift */,
+				BF2B9417278F4F8400DDC6D1 /* DecodeToModel.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +226,8 @@
 				BF2B9402278F49A400DDC6D1 /* ViewController.swift in Sources */,
 				BF2B93FE278F49A400DDC6D1 /* AppDelegate.swift in Sources */,
 				BF2B9400278F49A400DDC6D1 /* SceneDelegate.swift in Sources */,
+				BF2B941A278F4F9400DDC6D1 /* Request.swift in Sources */,
+				BF2B9418278F4F8400DDC6D1 /* DecodeToModel.swift in Sources */,
 				BF2B9408278F49A400DDC6D1 /* testAppUnsplash.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
